@@ -118,7 +118,7 @@ GND      ───►  GND (Brown)
 
 ### Step 5: Configure Serial Port
 
-In `Radar_UI_Processing..pde`, check this line:
+In `Radar_UI_Processing.pde`, check this line:
 
 ```java
 esp = new Serial(this, Serial.list()[0], 115200);
